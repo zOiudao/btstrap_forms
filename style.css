@@ -1,0 +1,34 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+.content-login {
+  height: calc(100vh - 56px); /* Subtraindo a altura do navbar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 20px; */
+}
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+.content-table {
+  height: calc(100vh - 56px); /* Subtraindo a altura do navbar */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 20px;
+}
+.table-container {
+  width: 100%;
+  max-width: 70%; /* Limita a largura da tabela */
+}
+.a-left {
+  text-align: start;
+}
